@@ -4,8 +4,12 @@ import SwiftUI
 
 extension LandmarkList_Previews {
     @_dynamicReplacement(for: previews) private static var __preview__previews: some View {
-        #sourceLocation(file: "/Users/Thomas_Stuart/Desktop/XcodeProjects/BuildingListsAndNavigation/Landmarks/Landmarks/LandmarkList.swift", line: 27)
-        AnyView(__designTimeSelection(LandmarkList(), "#8215.[2].[0].property.[0].[0]"))
+        #sourceLocation(file: "/Users/Thomas_Stuart/Desktop/XcodeProjects/BuildingListsAndNavigation/Landmarks/Landmarks/LandmarkList.swift", line: 28)
+        AnyView(__designTimeSelection(ForEach([__designTimeString("#8215.[2].[0].property.[0].[0].arg[0].value.[0].[0].value", fallback: "iPhone SE"), __designTimeString("#8215.[2].[0].property.[0].[0].arg[0].value.[1].[0].value", fallback: "iPhone XS Max")], id: \.self) { deviceName in
+            __designTimeSelection(LandmarkList()
+                .previewDevice(__designTimeSelection(PreviewDevice(rawValue: __designTimeSelection(deviceName, "#8215.[2].[0].property.[0].[0].arg[2].value.[0].modifier[0].arg[0].value.arg[0].value")), "#8215.[2].[0].property.[0].[0].arg[2].value.[0].modifier[0].arg[0].value"))
+                .previewDisplayName(__designTimeSelection(deviceName, "#8215.[2].[0].property.[0].[0].arg[2].value.[0].modifier[1].arg[0].value")), "#8215.[2].[0].property.[0].[0].arg[2].value.[0]")
+        }, "#8215.[2].[0].property.[0].[0]"))
 #sourceLocation()
     }
 }

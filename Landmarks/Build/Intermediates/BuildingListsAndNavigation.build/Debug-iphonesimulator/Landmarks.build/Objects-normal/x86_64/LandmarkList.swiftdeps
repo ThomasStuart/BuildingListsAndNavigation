@@ -10,6 +10,7 @@ provides-member:
 - ["9Landmarks21LandmarkList_PreviewsV", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "ForEach"
 - !private "LandmarkDetail"
 - "LandmarkList"
 - "LandmarkList_Previews"
@@ -17,13 +18,19 @@ depends-top-level:
 - !private "List"
 - !private "NavigationLink"
 - !private "NavigationView"
+- !private "PreviewDevice"
 - "PreviewProvider"
 - !private "StringLiteralType"
 - !private "Text"
 - "View"
 - !private "landmarkData"
 depends-member:
+- !private ["7SwiftUI18DynamicViewContentP", "init"]
 - !private ["SQ", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7SwiftUI7ForEachV", "init"]
 - !private ["9Landmarks8LandmarkV", "deinit"]
 - !private ["9Landmarks14LandmarkDetailV", "deinit"]
 - !private ["9Landmarks14LandmarkDetailV", "init"]
@@ -42,7 +49,10 @@ depends-member:
 - ["9Landmarks12LandmarkListV", "deinit"]
 - ["9Landmarks12LandmarkListV", "init"]
 - !private ["9Landmarks12LandmarkListV", "landmarkData"]
+- !private ["9Landmarks12LandmarkListV", "previewDevice"]
+- !private ["9Landmarks21LandmarkList_PreviewsV", "ForEach"]
 - !private ["9Landmarks21LandmarkList_PreviewsV", "LandmarkList"]
+- !private ["9Landmarks21LandmarkList_PreviewsV", "PreviewDevice"]
 - ["9Landmarks21LandmarkList_PreviewsV", "Previews"]
 - ["9Landmarks21LandmarkList_PreviewsV", "View"]
 - ["9Landmarks21LandmarkList_PreviewsV", "_Default_Previews"]
@@ -58,7 +68,10 @@ depends-member:
 - !private ["7SwiftUI4ListV", "navigationBarTitle"]
 - !private ["7SwiftUI14NavigationLinkV", "init"]
 - !private ["7SwiftUI14NavigationViewV", "init"]
+- !private ["7SwiftUI13PreviewDeviceV", "init"]
+- !private ["7SwiftUI15PreviewProviderP", "ForEach"]
 - !private ["7SwiftUI15PreviewProviderP", "LandmarkList"]
+- !private ["7SwiftUI15PreviewProviderP", "PreviewDevice"]
 - ["7SwiftUI15PreviewProviderP", "Previews"]
 - ["7SwiftUI15PreviewProviderP", ""]
 - ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
@@ -66,6 +79,7 @@ depends-member:
 - ["7SwiftUI15PreviewProviderP", "_previews"]
 - ["7SwiftUI15PreviewProviderP", "platform"]
 - ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["SY", "init"]
 - !private ["7SwiftUI4TextV", "init"]
 - ["7SwiftUI4ViewP", "Body"]
 - !private ["7SwiftUI4ViewP", "LandmarkDetail"]
@@ -82,7 +96,11 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "init"]
 - !private ["7SwiftUI4ViewP", "landmarkData"]
 - !private ["7SwiftUI4ViewP", "navigationBarTitle"]
+- !private ["7SwiftUI4ViewP", "previewDevice"]
+- !private ["7SwiftUI4ViewP", "previewDisplayName"]
+- !private ["7SwiftUI16_PreviewProviderP", "ForEach"]
 - !private ["7SwiftUI16_PreviewProviderP", "LandmarkList"]
+- !private ["7SwiftUI16_PreviewProviderP", "PreviewDevice"]
 - ["7SwiftUI16_PreviewProviderP", "Previews"]
 - ["7SwiftUI16_PreviewProviderP", ""]
 - ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
@@ -91,7 +109,12 @@ depends-member:
 - ["7SwiftUI16_PreviewProviderP", "platform"]
 - ["7SwiftUI16_PreviewProviderP", "previews"]
 depends-nominal:
+- !private "7SwiftUI18DynamicViewContentP"
 - !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7SwiftUI7ForEachV"
 - !private "9Landmarks8LandmarkV"
 - !private "9Landmarks14LandmarkDetailV"
 - "9Landmarks12LandmarkListV"
@@ -100,7 +123,9 @@ depends-nominal:
 - !private "7SwiftUI4ListV"
 - !private "7SwiftUI14NavigationLinkV"
 - !private "7SwiftUI14NavigationViewV"
+- !private "7SwiftUI13PreviewDeviceV"
 - "7SwiftUI15PreviewProviderP"
+- !private "SY"
 - !private "7SwiftUI4TextV"
 - "7SwiftUI4ViewP"
 - "7SwiftUI16_PreviewProviderP"

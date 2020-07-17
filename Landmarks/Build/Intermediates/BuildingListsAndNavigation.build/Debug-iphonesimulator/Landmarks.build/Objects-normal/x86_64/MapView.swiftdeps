@@ -31,7 +31,6 @@ depends-member:
 - !private ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "setRegion"]
 - !private ["So6CGRectV", "zero"]
-- !private ["So22CLLocationCoordinate2DV", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "setRegion"]
 - !private ["s7CVarArgP", "subscript"]
@@ -155,7 +154,6 @@ depends-member:
 - !private ["So6UIViewC", "init"]
 - !private ["So6UIViewC", "setRegion"]
 - ["7SwiftUI19UIViewRepresentableP", "Body"]
-- !private ["7SwiftUI19UIViewRepresentableP", "CLLocationCoordinate2D"]
 - ["7SwiftUI19UIViewRepresentableP", "Context"]
 - ["7SwiftUI19UIViewRepresentableP", "Coordinator"]
 - !private ["7SwiftUI19UIViewRepresentableP", "MKCoordinateRegion"]
@@ -172,13 +170,13 @@ depends-member:
 - ["7SwiftUI19UIViewRepresentableP", "_overrideLayoutTraits"]
 - ["7SwiftUI19UIViewRepresentableP", "_overrideSizeThatFits"]
 - ["7SwiftUI19UIViewRepresentableP", "body"]
+- !private ["7SwiftUI19UIViewRepresentableP", "coordinate"]
 - ["7SwiftUI19UIViewRepresentableP", "dismantleUIView"]
 - !private ["7SwiftUI19UIViewRepresentableP", "init"]
 - ["7SwiftUI19UIViewRepresentableP", "makeCoordinator"]
 - ["7SwiftUI19UIViewRepresentableP", "makeUIView"]
 - ["7SwiftUI19UIViewRepresentableP", "updateUIView"]
 - ["7SwiftUI4ViewP", "Body"]
-- !private ["7SwiftUI4ViewP", "CLLocationCoordinate2D"]
 - ["7SwiftUI4ViewP", "Context"]
 - ["7SwiftUI4ViewP", "Coordinator"]
 - !private ["7SwiftUI4ViewP", "MKCoordinateRegion"]
@@ -195,6 +193,7 @@ depends-member:
 - ["7SwiftUI4ViewP", "_overrideLayoutTraits"]
 - ["7SwiftUI4ViewP", "_overrideSizeThatFits"]
 - ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "coordinate"]
 - ["7SwiftUI4ViewP", "dismantleUIView"]
 - !private ["7SwiftUI4ViewP", "init"]
 - ["7SwiftUI4ViewP", "makeCoordinator"]
@@ -229,7 +228,6 @@ depends-nominal:
 - !private "SK"
 - !private "So15CALayerDelegateP"
 - !private "So6CGRectV"
-- !private "So22CLLocationCoordinate2DV"
 - !private "s7CVarArgP"
 - !private "Sl"
 - !private "10Foundation15ContiguousBytesP"

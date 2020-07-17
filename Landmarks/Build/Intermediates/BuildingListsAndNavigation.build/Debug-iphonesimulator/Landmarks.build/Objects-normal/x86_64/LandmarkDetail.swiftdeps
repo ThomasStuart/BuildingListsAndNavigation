@@ -14,35 +14,65 @@ depends-top-level:
 - "FloatLiteralType"
 - !private "HStack"
 - !private "IntegerLiteralType"
+- "Landmark"
 - "LandmarkDetail"
 - "LandmarkDetail_Previews"
 - !private "MapView"
 - "PreviewProvider"
 - !private "Spacer"
-- !private "StringLiteralType"
 - !private "Text"
 - !private "VStack"
 - "View"
+- !private "landmarkData"
 depends-member:
+- !private ["Sa", "subscript"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "subscript"]
 - !private ["9Landmarks11CircleImageV", "deinit"]
 - !private ["9Landmarks11CircleImageV", "init"]
 - !private ["9Landmarks11CircleImageV", "offset"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "subheadline"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "title"]
 - !private ["s17CustomReflectableP", "subheadline"]
+- !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "title"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "image"]
+- !private ["Se", "locationCoordinate"]
+- !private ["Se", "name"]
+- !private ["Se", "park"]
+- !private ["Se", "state"]
 - !private ["Se", "subheadline"]
+- !private ["Se", "subscript"]
 - !private ["Se", "title"]
+- !private ["SE", "image"]
+- !private ["SE", "locationCoordinate"]
+- !private ["SE", "name"]
+- !private ["SE", "park"]
+- !private ["SE", "state"]
 - !private ["SE", "subheadline"]
+- !private ["SE", "subscript"]
 - !private ["SE", "title"]
 - !private ["SQ", "bottom"]
 - !private ["SQ", "font"]
+- !private ["SQ", "image"]
 - !private ["SQ", "init"]
+- !private ["SQ", "inline"]
 - !private ["SQ", "leading"]
+- !private ["SQ", "locationCoordinate"]
+- !private ["SQ", "name"]
+- !private ["SQ", "park"]
+- !private ["SQ", "state"]
 - !private ["SQ", "subheadline"]
+- !private ["SQ", "subscript"]
 - !private ["SQ", "title"]
 - !private ["SQ", "top"]
 - !private ["s25ExpressibleByArrayLiteralP", "bottom"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s25ExpressibleByArrayLiteralP", "top"]
 - !private ["s23ExpressibleByNilLiteralP", "subheadline"]
 - !private ["s23ExpressibleByNilLiteralP", "title"]
@@ -51,12 +81,30 @@ depends-member:
 - !private ["7SwiftUI7GestureP", "subheadline"]
 - !private ["7SwiftUI7GestureP", "title"]
 - !private ["7SwiftUI6HStackV", "init"]
+- !private ["SH", "image"]
+- !private ["SH", "inline"]
+- !private ["SH", "locationCoordinate"]
+- !private ["SH", "name"]
+- !private ["SH", "park"]
+- !private ["SH", "state"]
 - !private ["SH", "subheadline"]
+- !private ["SH", "subscript"]
 - !private ["SH", "title"]
 - !private ["7SwiftUI19HorizontalAlignmentV", "leading"]
+- !private ["s12IdentifiableP", "image"]
+- !private ["s12IdentifiableP", "locationCoordinate"]
+- !private ["s12IdentifiableP", "name"]
+- !private ["s12IdentifiableP", "park"]
+- !private ["s12IdentifiableP", "state"]
+- !private ["9Landmarks8LandmarkV", "image"]
+- !private ["9Landmarks8LandmarkV", "locationCoordinate"]
+- !private ["9Landmarks8LandmarkV", "name"]
+- !private ["9Landmarks8LandmarkV", "park"]
+- !private ["9Landmarks8LandmarkV", "state"]
 - ["9Landmarks14LandmarkDetailV", "Body"]
 - !private ["9Landmarks14LandmarkDetailV", "CircleImage"]
 - !private ["9Landmarks14LandmarkDetailV", "HStack"]
+- ["9Landmarks14LandmarkDetailV", "Landmark"]
 - !private ["9Landmarks14LandmarkDetailV", "MapView"]
 - !private ["9Landmarks14LandmarkDetailV", "Spacer"]
 - !private ["9Landmarks14LandmarkDetailV", "Text"]
@@ -68,6 +116,7 @@ depends-member:
 - ["9Landmarks14LandmarkDetailV", "body"]
 - ["9Landmarks14LandmarkDetailV", "deinit"]
 - ["9Landmarks14LandmarkDetailV", "init"]
+- ["9Landmarks14LandmarkDetailV", "landmark"]
 - !private ["9Landmarks23LandmarkDetail_PreviewsV", "LandmarkDetail"]
 - ["9Landmarks23LandmarkDetail_PreviewsV", "Previews"]
 - ["9Landmarks23LandmarkDetail_PreviewsV", "View"]
@@ -76,11 +125,14 @@ depends-member:
 - ["9Landmarks23LandmarkDetail_PreviewsV", "_previews"]
 - ["9Landmarks23LandmarkDetail_PreviewsV", "deinit"]
 - ["9Landmarks23LandmarkDetail_PreviewsV", "init"]
+- !private ["9Landmarks23LandmarkDetail_PreviewsV", "landmarkData"]
 - ["9Landmarks23LandmarkDetail_PreviewsV", "platform"]
 - ["9Landmarks23LandmarkDetail_PreviewsV", "previews"]
 - !private ["9Landmarks7MapViewV", "deinit"]
 - !private ["9Landmarks7MapViewV", "edgesIgnoringSafeArea"]
 - !private ["9Landmarks7MapViewV", "init"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - !private ["s9OptionSetP", "bottom"]
 - !private ["s9OptionSetP", "top"]
 - !private ["Sq", "subheadline"]
@@ -91,10 +143,14 @@ depends-member:
 - ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
 - ["7SwiftUI15PreviewProviderP", "_platform"]
 - ["7SwiftUI15PreviewProviderP", "_previews"]
+- !private ["7SwiftUI15PreviewProviderP", "landmarkData"]
 - ["7SwiftUI15PreviewProviderP", "platform"]
 - ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "subscript"]
 - !private ["SY", "bottom"]
 - !private ["SY", "top"]
+- !private ["ST", "subscript"]
 - !private ["7SwiftUI4EdgeO3SetV", "bottom"]
 - !private ["7SwiftUI4EdgeO3SetV", "top"]
 - !private ["s10SetAlgebraP", "bottom"]
@@ -102,9 +158,11 @@ depends-member:
 - !private ["7SwiftUI6SpacerV", "init"]
 - !private ["7SwiftUI4TextV", "font"]
 - !private ["7SwiftUI4TextV", "init"]
+- !private ["7SwiftUI17NavigationBarItemV16TitleDisplayModeO", "inline"]
 - !private ["7SwiftUI19UIViewRepresentableP", "edgesIgnoringSafeArea"]
 - !private ["7SwiftUI19UIViewRepresentableP", "init"]
 - !private ["7SwiftUI6VStackV", "init"]
+- !private ["7SwiftUI6VStackV", "navigationBarTitle"]
 - !private ["7SwiftUI6VStackV", "padding"]
 - !private ["7SwiftUI17VerticalAlignmentV", "top"]
 - ["7SwiftUI4ViewP", "Body"]
@@ -123,12 +181,19 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "font"]
 - !private ["7SwiftUI4ViewP", "frame"]
 - !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "landmark"]
+- !private ["7SwiftUI4ViewP", "navigationBarTitle"]
 - !private ["7SwiftUI4ViewP", "offset"]
 - !private ["7SwiftUI4ViewP", "padding"]
 - !private ["7SwiftUI4ViewP", "subheadline"]
 - !private ["7SwiftUI4ViewP", "title"]
 - !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "subheadline"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "title"]
 - !private ["7SwiftUI16_PreviewProviderP", "LandmarkDetail"]
 - ["7SwiftUI16_PreviewProviderP", "Previews"]
@@ -136,12 +201,20 @@ depends-member:
 - ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
 - ["7SwiftUI16_PreviewProviderP", "_platform"]
 - ["7SwiftUI16_PreviewProviderP", "_previews"]
+- !private ["7SwiftUI16_PreviewProviderP", "landmarkData"]
 - ["7SwiftUI16_PreviewProviderP", "platform"]
 - ["7SwiftUI16_PreviewProviderP", "previews"]
 depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
 - !private "9Landmarks11CircleImageV"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
 - !private "Se"
 - !private "SE"
 - !private "SQ"
@@ -152,22 +225,34 @@ depends-nominal:
 - !private "7SwiftUI6HStackV"
 - !private "SH"
 - !private "7SwiftUI19HorizontalAlignmentV"
+- !private "s12IdentifiableP"
+- !private "9Landmarks8LandmarkV"
 - "9Landmarks14LandmarkDetailV"
 - "9Landmarks23LandmarkDetail_PreviewsV"
 - !private "9Landmarks7MapViewV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
 - !private "s9OptionSetP"
 - !private "Sq"
 - "7SwiftUI15PreviewProviderP"
+- !private "Sk"
+- !private "Sm"
 - !private "SY"
+- !private "ST"
 - !private "7SwiftUI4EdgeO3SetV"
 - !private "s10SetAlgebraP"
 - !private "7SwiftUI6SpacerV"
 - !private "7SwiftUI4TextV"
+- !private "7SwiftUI17NavigationBarItemV16TitleDisplayModeO"
 - !private "7SwiftUI19UIViewRepresentableP"
 - !private "7SwiftUI6VStackV"
 - !private "7SwiftUI17VerticalAlignmentV"
 - "7SwiftUI4ViewP"
 - !private "7SwiftUI11ViewBuilderV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "s21_ObjectiveCBridgeableP"
 - "7SwiftUI16_PreviewProviderP"
 depends-dynamic-lookup:
@@ -207,4 +292,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "82513e965c2cbce9db3484cae6a58565"
+interface-hash: "789a4e52ebbe95248bd27694f975936c"

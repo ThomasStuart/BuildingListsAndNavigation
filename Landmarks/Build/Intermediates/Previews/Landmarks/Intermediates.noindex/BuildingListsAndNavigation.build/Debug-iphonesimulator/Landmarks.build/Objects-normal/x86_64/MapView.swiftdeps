@@ -11,9 +11,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "BooleanLiteralType"
-- !private "CLLocationCoordinate2D"
+- "CLLocationCoordinate2D"
 - "Context"
 - !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - !private "MKCoordinateRegion"
 - !private "MKCoordinateSpan"
 - "MKMapView"
@@ -22,33 +23,54 @@ depends-top-level:
 - "PreviewProvider"
 - "UIViewRepresentable"
 - "View"
+- !private "landmarkData"
 depends-member:
 - !private ["7SwiftUI10AnimatableP", "zero"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "subscript"]
 - !private ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "setRegion"]
 - !private ["So6CGRectV", "zero"]
 - !private ["So22CLLocationCoordinate2DV", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "setRegion"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "setRegion"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "zero"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "setRegion"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "locationCoordinate"]
+- !private ["Se", "subscript"]
 - !private ["Se", "zero"]
+- !private ["SE", "locationCoordinate"]
+- !private ["SE", "subscript"]
 - !private ["SE", "zero"]
 - !private ["SQ", "init"]
+- !private ["SQ", "locationCoordinate"]
 - !private ["SQ", "setRegion"]
+- !private ["SQ", "subscript"]
 - !private ["SQ", "zero"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["SH", "init"]
+- !private ["SH", "locationCoordinate"]
 - !private ["SH", "setRegion"]
+- !private ["SH", "subscript"]
+- !private ["s12IdentifiableP", "locationCoordinate"]
+- !private ["9Landmarks8LandmarkV", "locationCoordinate"]
 - !private ["So18MKCoordinateRegiona", "init"]
 - !private ["So16MKCoordinateSpana", "init"]
 - !private ["So9MKMapViewC", "init"]
 - !private ["So9MKMapViewC", "setRegion"]
 - ["9Landmarks7MapViewV", "Body"]
-- !private ["9Landmarks7MapViewV", "CLLocationCoordinate2D"]
+- ["9Landmarks7MapViewV", "CLLocationCoordinate2D"]
 - ["9Landmarks7MapViewV", "Context"]
 - ["9Landmarks7MapViewV", "Coordinator"]
 - !private ["9Landmarks7MapViewV", "MKCoordinateRegion"]
@@ -64,6 +86,7 @@ depends-member:
 - ["9Landmarks7MapViewV", "_overrideLayoutTraits"]
 - ["9Landmarks7MapViewV", "_overrideSizeThatFits"]
 - ["9Landmarks7MapViewV", "body"]
+- ["9Landmarks7MapViewV", "coordinate"]
 - ["9Landmarks7MapViewV", "deinit"]
 - ["9Landmarks7MapViewV", "dismantleUIView"]
 - ["9Landmarks7MapViewV", "init"]
@@ -78,8 +101,11 @@ depends-member:
 - ["9Landmarks16MapView_PreviewsV", "_previews"]
 - ["9Landmarks16MapView_PreviewsV", "deinit"]
 - ["9Landmarks16MapView_PreviewsV", "init"]
+- !private ["9Landmarks16MapView_PreviewsV", "landmarkData"]
 - ["9Landmarks16MapView_PreviewsV", "platform"]
 - ["9Landmarks16MapView_PreviewsV", "previews"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "setRegion"]
 - !private ["So8NSObjectC", "init"]
@@ -92,8 +118,12 @@ depends-member:
 - ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
 - ["7SwiftUI15PreviewProviderP", "_platform"]
 - ["7SwiftUI15PreviewProviderP", "_previews"]
+- !private ["7SwiftUI15PreviewProviderP", "landmarkData"]
 - ["7SwiftUI15PreviewProviderP", "platform"]
 - ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "subscript"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "setRegion"]
 - !private ["So12UIAppearanceP", "init"]
@@ -170,12 +200,17 @@ depends-member:
 - ["7SwiftUI4ViewP", "makeCoordinator"]
 - ["7SwiftUI4ViewP", "makeUIView"]
 - ["7SwiftUI4ViewP", "updateUIView"]
+- !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setRegion"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setRegion"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "zero"]
 - !private ["7SwiftUI16_PreviewProviderP", "MapView"]
 - ["7SwiftUI16_PreviewProviderP", "Previews"]
@@ -183,32 +218,46 @@ depends-member:
 - ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
 - ["7SwiftUI16_PreviewProviderP", "_platform"]
 - ["7SwiftUI16_PreviewProviderP", "_previews"]
+- !private ["7SwiftUI16_PreviewProviderP", "landmarkData"]
 - ["7SwiftUI16_PreviewProviderP", "platform"]
 - ["7SwiftUI16_PreviewProviderP", "previews"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setRegion"]
 depends-nominal:
 - !private "7SwiftUI10AnimatableP"
+- !private "Sa"
+- !private "SK"
 - !private "So15CALayerDelegateP"
 - !private "So6CGRectV"
 - !private "So22CLLocationCoordinate2DV"
 - !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
 - !private "Se"
 - !private "SE"
 - !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
 - !private "SH"
+- !private "s12IdentifiableP"
+- !private "9Landmarks8LandmarkV"
 - !private "So18MKCoordinateRegiona"
 - !private "So16MKCoordinateSpana"
 - !private "So9MKMapViewC"
 - "9Landmarks7MapViewV"
 - "9Landmarks16MapView_PreviewsV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
 - !private "So8NSCodingP"
 - !private "So8NSObjectC"
 - !private "So8NSObjectP"
 - "7SwiftUI15PreviewProviderP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - !private "So21UIAppearanceContainerP"
@@ -226,7 +275,11 @@ depends-nominal:
 - !private "So6UIViewC"
 - "7SwiftUI19UIViewRepresentableP"
 - "7SwiftUI4ViewP"
+- !private "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
 - !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s21_ObjectiveCBridgeableP"
@@ -269,4 +322,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "0fec30d222acaa523fb56001968a4663"
+interface-hash: "087c36b30e0e49f6dda37aaa996492fd"

@@ -15,7 +15,7 @@ depends-top-level:
 - "CircleImage_Previews"
 - !private "Color"
 - !private "FloatLiteralType"
-- !private "Image"
+- "Image"
 - !private "IntegerLiteralType"
 - "PreviewProvider"
 - !private "StringLiteralType"
@@ -28,15 +28,17 @@ depends-member:
 - ["9Landmarks11CircleImageV", "Body"]
 - !private ["9Landmarks11CircleImageV", "Circle"]
 - !private ["9Landmarks11CircleImageV", "Color"]
-- !private ["9Landmarks11CircleImageV", "Image"]
+- ["9Landmarks11CircleImageV", "Image"]
 - ["9Landmarks11CircleImageV", "View"]
 - ["9Landmarks11CircleImageV", "_Default_Body"]
 - ["9Landmarks11CircleImageV", "_makeView"]
 - ["9Landmarks11CircleImageV", "_makeViewList"]
 - ["9Landmarks11CircleImageV", "body"]
 - ["9Landmarks11CircleImageV", "deinit"]
+- ["9Landmarks11CircleImageV", "image"]
 - ["9Landmarks11CircleImageV", "init"]
 - !private ["9Landmarks20CircleImage_PreviewsV", "CircleImage"]
+- !private ["9Landmarks20CircleImage_PreviewsV", "Image"]
 - ["9Landmarks20CircleImage_PreviewsV", "Previews"]
 - ["9Landmarks20CircleImage_PreviewsV", "View"]
 - ["9Landmarks20CircleImage_PreviewsV", "_Default_Previews"]
@@ -57,6 +59,7 @@ depends-member:
 - !private ["7SwiftUI15InsettableShapeP", "init"]
 - !private ["7SwiftUI15InsettableShapeP", "stroke"]
 - !private ["7SwiftUI15PreviewProviderP", "CircleImage"]
+- !private ["7SwiftUI15PreviewProviderP", "Image"]
 - ["7SwiftUI15PreviewProviderP", "Previews"]
 - ["7SwiftUI15PreviewProviderP", ""]
 - ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
@@ -70,19 +73,20 @@ depends-member:
 - ["7SwiftUI4ViewP", "Body"]
 - !private ["7SwiftUI4ViewP", "Circle"]
 - !private ["7SwiftUI4ViewP", "Color"]
-- !private ["7SwiftUI4ViewP", "Image"]
 - ["7SwiftUI4ViewP", ""]
 - ["7SwiftUI4ViewP", "_Default_Body"]
 - ["7SwiftUI4ViewP", "_makeView"]
 - ["7SwiftUI4ViewP", "_makeViewList"]
 - ["7SwiftUI4ViewP", "body"]
 - !private ["7SwiftUI4ViewP", "clipShape"]
+- !private ["7SwiftUI4ViewP", "image"]
 - !private ["7SwiftUI4ViewP", "init"]
 - !private ["7SwiftUI4ViewP", "overlay"]
 - !private ["7SwiftUI4ViewP", "shadow"]
 - !private ["7SwiftUI4ViewP", "stroke"]
 - !private ["7SwiftUI4ViewP", "white"]
 - !private ["7SwiftUI16_PreviewProviderP", "CircleImage"]
+- !private ["7SwiftUI16_PreviewProviderP", "Image"]
 - ["7SwiftUI16_PreviewProviderP", "Previews"]
 - ["7SwiftUI16_PreviewProviderP", ""]
 - ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
@@ -143,4 +147,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "6c28a7684a2fe89dc876858ff24a61af"
+interface-hash: "c9676e6c426aac04a14156a508510403"

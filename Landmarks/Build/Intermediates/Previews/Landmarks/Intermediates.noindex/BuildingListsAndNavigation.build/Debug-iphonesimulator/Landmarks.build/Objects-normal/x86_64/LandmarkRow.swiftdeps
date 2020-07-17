@@ -10,13 +10,15 @@ provides-member:
 - ["9Landmarks20LandmarkRow_PreviewsV", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "FloatLiteralType"
+- "FloatLiteralType"
+- !private "Group"
+- !private "HStack"
 - !private "IntegerLiteralType"
 - "Landmark"
 - "LandmarkRow"
 - "LandmarkRow_Previews"
 - "PreviewProvider"
-- !private "StringLiteralType"
+- !private "Spacer"
 - !private "Text"
 - "View"
 - !private "landmarkData"
@@ -30,14 +32,33 @@ depends-member:
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "image"]
+- !private ["Se", "name"]
 - !private ["Se", "subscript"]
+- !private ["SE", "image"]
+- !private ["SE", "name"]
 - !private ["SE", "subscript"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "image"]
 - !private ["SQ", "init"]
+- !private ["SQ", "name"]
+- !private ["SQ", "resizable"]
 - !private ["SQ", "subscript"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["7SwiftUI5GroupV", "init"]
+- !private ["7SwiftUI5GroupV", "previewLayout"]
+- !private ["7SwiftUI6HStackV", "init"]
+- !private ["SH", "image"]
+- !private ["SH", "name"]
 - !private ["SH", "subscript"]
+- !private ["7SwiftUI5ImageV", "frame"]
+- !private ["7SwiftUI5ImageV", "resizable"]
+- !private ["9Landmarks8LandmarkV", "image"]
+- !private ["9Landmarks8LandmarkV", "name"]
 - ["9Landmarks11LandmarkRowV", "Body"]
+- !private ["9Landmarks11LandmarkRowV", "HStack"]
 - ["9Landmarks11LandmarkRowV", "Landmark"]
+- !private ["9Landmarks11LandmarkRowV", "Spacer"]
 - !private ["9Landmarks11LandmarkRowV", "Text"]
 - ["9Landmarks11LandmarkRowV", "View"]
 - ["9Landmarks11LandmarkRowV", "_Default_Body"]
@@ -47,6 +68,7 @@ depends-member:
 - ["9Landmarks11LandmarkRowV", "deinit"]
 - ["9Landmarks11LandmarkRowV", "init"]
 - ["9Landmarks11LandmarkRowV", "landmark"]
+- !private ["9Landmarks20LandmarkRow_PreviewsV", "Group"]
 - !private ["9Landmarks20LandmarkRow_PreviewsV", "LandmarkRow"]
 - ["9Landmarks20LandmarkRow_PreviewsV", "Previews"]
 - ["9Landmarks20LandmarkRow_PreviewsV", "View"]
@@ -60,6 +82,8 @@ depends-member:
 - ["9Landmarks20LandmarkRow_PreviewsV", "previews"]
 - !private ["SM", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["7SwiftUI13PreviewLayoutO", "fixed"]
+- !private ["7SwiftUI15PreviewProviderP", "Group"]
 - !private ["7SwiftUI15PreviewProviderP", "LandmarkRow"]
 - ["7SwiftUI15PreviewProviderP", "Previews"]
 - ["7SwiftUI15PreviewProviderP", ""]
@@ -72,20 +96,29 @@ depends-member:
 - !private ["Sk", "subscript"]
 - !private ["Sm", "subscript"]
 - !private ["ST", "subscript"]
+- !private ["7SwiftUI6SpacerV", "init"]
 - !private ["7SwiftUI4TextV", "init"]
 - ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "HStack"]
+- !private ["7SwiftUI4ViewP", "Spacer"]
 - !private ["7SwiftUI4ViewP", "Text"]
 - ["7SwiftUI4ViewP", ""]
 - ["7SwiftUI4ViewP", "_Default_Body"]
 - ["7SwiftUI4ViewP", "_makeView"]
 - ["7SwiftUI4ViewP", "_makeViewList"]
 - ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "frame"]
 - !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "landmark"]
+- !private ["7SwiftUI4ViewP", "previewLayout"]
+- !private ["7SwiftUI4ViewP", "resizable"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["7SwiftUI16_PreviewProviderP", "Group"]
 - !private ["7SwiftUI16_PreviewProviderP", "LandmarkRow"]
 - ["7SwiftUI16_PreviewProviderP", "Previews"]
 - ["7SwiftUI16_PreviewProviderP", ""]
@@ -109,17 +142,24 @@ depends-nominal:
 - !private "SE"
 - !private "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "7SwiftUI5GroupV"
+- !private "7SwiftUI6HStackV"
 - !private "SH"
+- !private "7SwiftUI5ImageV"
+- !private "9Landmarks8LandmarkV"
 - "9Landmarks11LandmarkRowV"
 - "9Landmarks20LandmarkRow_PreviewsV"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
+- !private "7SwiftUI13PreviewLayoutO"
 - "7SwiftUI15PreviewProviderP"
 - !private "Sk"
 - !private "Sm"
 - !private "ST"
+- !private "7SwiftUI6SpacerV"
 - !private "7SwiftUI4TextV"
 - "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
 - !private "s14_ArrayProtocolP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s19_HasContiguousBytesP"

@@ -10,18 +10,30 @@ provides-member:
 - ["9Landmarks21LandmarkList_PreviewsV", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "LandmarkDetail"
 - "LandmarkList"
 - "LandmarkList_Previews"
 - !private "LandmarkRow"
 - !private "List"
+- !private "NavigationLink"
+- !private "NavigationView"
 - "PreviewProvider"
+- !private "StringLiteralType"
+- !private "Text"
 - "View"
 - !private "landmarkData"
 depends-member:
+- !private ["SQ", "init"]
 - !private ["9Landmarks8LandmarkV", "deinit"]
+- !private ["9Landmarks14LandmarkDetailV", "deinit"]
+- !private ["9Landmarks14LandmarkDetailV", "init"]
 - ["9Landmarks12LandmarkListV", "Body"]
+- !private ["9Landmarks12LandmarkListV", "LandmarkDetail"]
 - !private ["9Landmarks12LandmarkListV", "LandmarkRow"]
 - !private ["9Landmarks12LandmarkListV", "List"]
+- !private ["9Landmarks12LandmarkListV", "NavigationLink"]
+- !private ["9Landmarks12LandmarkListV", "NavigationView"]
+- !private ["9Landmarks12LandmarkListV", "Text"]
 - ["9Landmarks12LandmarkListV", "View"]
 - ["9Landmarks12LandmarkListV", "_Default_Body"]
 - ["9Landmarks12LandmarkListV", "_makeView"]
@@ -43,6 +55,9 @@ depends-member:
 - !private ["9Landmarks11LandmarkRowV", "deinit"]
 - !private ["9Landmarks11LandmarkRowV", "init"]
 - !private ["7SwiftUI4ListV", "init"]
+- !private ["7SwiftUI4ListV", "navigationBarTitle"]
+- !private ["7SwiftUI14NavigationLinkV", "init"]
+- !private ["7SwiftUI14NavigationViewV", "init"]
 - !private ["7SwiftUI15PreviewProviderP", "LandmarkList"]
 - ["7SwiftUI15PreviewProviderP", "Previews"]
 - ["7SwiftUI15PreviewProviderP", ""]
@@ -51,9 +66,14 @@ depends-member:
 - ["7SwiftUI15PreviewProviderP", "_previews"]
 - ["7SwiftUI15PreviewProviderP", "platform"]
 - ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["7SwiftUI4TextV", "init"]
 - ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "LandmarkDetail"]
 - !private ["7SwiftUI4ViewP", "LandmarkRow"]
 - !private ["7SwiftUI4ViewP", "List"]
+- !private ["7SwiftUI4ViewP", "NavigationLink"]
+- !private ["7SwiftUI4ViewP", "NavigationView"]
+- !private ["7SwiftUI4ViewP", "Text"]
 - ["7SwiftUI4ViewP", ""]
 - ["7SwiftUI4ViewP", "_Default_Body"]
 - ["7SwiftUI4ViewP", "_makeView"]
@@ -61,6 +81,7 @@ depends-member:
 - ["7SwiftUI4ViewP", "body"]
 - !private ["7SwiftUI4ViewP", "init"]
 - !private ["7SwiftUI4ViewP", "landmarkData"]
+- !private ["7SwiftUI4ViewP", "navigationBarTitle"]
 - !private ["7SwiftUI16_PreviewProviderP", "LandmarkList"]
 - ["7SwiftUI16_PreviewProviderP", "Previews"]
 - ["7SwiftUI16_PreviewProviderP", ""]
@@ -70,12 +91,17 @@ depends-member:
 - ["7SwiftUI16_PreviewProviderP", "platform"]
 - ["7SwiftUI16_PreviewProviderP", "previews"]
 depends-nominal:
+- !private "SQ"
 - !private "9Landmarks8LandmarkV"
+- !private "9Landmarks14LandmarkDetailV"
 - "9Landmarks12LandmarkListV"
 - "9Landmarks21LandmarkList_PreviewsV"
 - !private "9Landmarks11LandmarkRowV"
 - !private "7SwiftUI4ListV"
+- !private "7SwiftUI14NavigationLinkV"
+- !private "7SwiftUI14NavigationViewV"
 - "7SwiftUI15PreviewProviderP"
+- !private "7SwiftUI4TextV"
 - "7SwiftUI4ViewP"
 - "7SwiftUI16_PreviewProviderP"
 depends-dynamic-lookup:

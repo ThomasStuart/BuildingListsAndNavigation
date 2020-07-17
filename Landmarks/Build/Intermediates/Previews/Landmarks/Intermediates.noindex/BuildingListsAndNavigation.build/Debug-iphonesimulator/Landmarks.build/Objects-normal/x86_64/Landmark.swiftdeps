@@ -22,6 +22,7 @@ depends-top-level:
 - "Double"
 - !private "FloatLiteralType"
 - "Hashable"
+- "Identifiable"
 - "Image"
 - !private "ImageStore"
 - "Int"
@@ -108,10 +109,12 @@ depends-member:
 - ["Se", "=="]
 - ["Se", "AllCases"]
 - !private ["Se", "CLLocationCoordinate2D"]
+- ["Se", "ID"]
 - !private ["Se", "ImageStore"]
 - ["Se", "RawValue"]
 - ["Se", ""]
 - ["Se", "_Default_AllCases"]
+- ["Se", "_Default_ID"]
 - ["Se", "_Default_RawValue"]
 - !private ["Se", "_findStringSwitchCase"]
 - ["Se", "_rawHashValue"]
@@ -121,7 +124,7 @@ depends-member:
 - ["Se", "encode"]
 - ["Se", "hash"]
 - ["Se", "hashValue"]
-- !private ["Se", "id"]
+- ["Se", "id"]
 - !private ["Se", "imageName"]
 - ["Se", "init"]
 - !private ["Se", "latitude"]
@@ -134,10 +137,12 @@ depends-member:
 - ["SE", "=="]
 - ["SE", "AllCases"]
 - !private ["SE", "CLLocationCoordinate2D"]
+- ["SE", "ID"]
 - !private ["SE", "ImageStore"]
 - ["SE", "RawValue"]
 - ["SE", ""]
 - ["SE", "_Default_AllCases"]
+- ["SE", "_Default_ID"]
 - ["SE", "_Default_RawValue"]
 - !private ["SE", "_findStringSwitchCase"]
 - ["SE", "_rawHashValue"]
@@ -147,7 +152,7 @@ depends-member:
 - ["SE", "encode"]
 - ["SE", "hash"]
 - ["SE", "hashValue"]
-- !private ["SE", "id"]
+- ["SE", "id"]
 - !private ["SE", "imageName"]
 - ["SE", "init"]
 - !private ["SE", "latitude"]
@@ -160,10 +165,12 @@ depends-member:
 - ["SQ", "=="]
 - ["SQ", "AllCases"]
 - !private ["SQ", "CLLocationCoordinate2D"]
+- ["SQ", "ID"]
 - !private ["SQ", "ImageStore"]
 - ["SQ", "RawValue"]
 - ["SQ", ""]
 - ["SQ", "_Default_AllCases"]
+- ["SQ", "_Default_ID"]
 - ["SQ", "_Default_RawValue"]
 - !private ["SQ", "_findStringSwitchCase"]
 - ["SQ", "_rawHashValue"]
@@ -175,7 +182,7 @@ depends-member:
 - ["SQ", "encode"]
 - ["SQ", "hash"]
 - ["SQ", "hashValue"]
-- !private ["SQ", "id"]
+- ["SQ", "id"]
 - !private ["SQ", "imageName"]
 - ["SQ", "init"]
 - ["SQ", "intValue"]
@@ -189,10 +196,12 @@ depends-member:
 - ["SH", "=="]
 - ["SH", "AllCases"]
 - !private ["SH", "CLLocationCoordinate2D"]
+- ["SH", "ID"]
 - !private ["SH", "ImageStore"]
 - ["SH", "RawValue"]
 - ["SH", ""]
 - ["SH", "_Default_AllCases"]
+- ["SH", "_Default_ID"]
 - ["SH", "_Default_RawValue"]
 - !private ["SH", "_findStringSwitchCase"]
 - ["SH", "_rawHashValue"]
@@ -204,7 +213,7 @@ depends-member:
 - ["SH", "encode"]
 - ["SH", "hash"]
 - ["SH", "hashValue"]
-- !private ["SH", "id"]
+- ["SH", "id"]
 - !private ["SH", "imageName"]
 - ["SH", "init"]
 - ["SH", "intValue"]
@@ -216,6 +225,25 @@ depends-member:
 - !private ["SH", "state"]
 - ["SH", "stringValue"]
 - !private ["s6HasherV", "combine"]
+- ["s12IdentifiableP", "=="]
+- !private ["s12IdentifiableP", "CLLocationCoordinate2D"]
+- ["s12IdentifiableP", "ID"]
+- !private ["s12IdentifiableP", "ImageStore"]
+- ["s12IdentifiableP", ""]
+- ["s12IdentifiableP", "_Default_ID"]
+- !private ["s12IdentifiableP", "_findStringSwitchCase"]
+- ["s12IdentifiableP", "_rawHashValue"]
+- !private ["s12IdentifiableP", "category"]
+- !private ["s12IdentifiableP", "coordinates"]
+- ["s12IdentifiableP", "encode"]
+- ["s12IdentifiableP", "hash"]
+- ["s12IdentifiableP", "hashValue"]
+- ["s12IdentifiableP", "id"]
+- !private ["s12IdentifiableP", "imageName"]
+- ["s12IdentifiableP", "init"]
+- !private ["s12IdentifiableP", "name"]
+- !private ["s12IdentifiableP", "park"]
+- !private ["s12IdentifiableP", "state"]
 - !private ["9Landmarks10ImageStoreC", "image"]
 - !private ["9Landmarks10ImageStoreC", "shared"]
 - !private ["s22KeyedDecodingContainerV", "decode"]
@@ -229,10 +257,12 @@ depends-member:
 - ["9Landmarks8LandmarkV", "Codable"]
 - ["9Landmarks8LandmarkV", "Coordinates"]
 - ["9Landmarks8LandmarkV", "Hashable"]
+- ["9Landmarks8LandmarkV", "ID"]
 - ["9Landmarks8LandmarkV", "Image"]
 - !private ["9Landmarks8LandmarkV", "ImageStore"]
 - ["9Landmarks8LandmarkV", "Int"]
 - ["9Landmarks8LandmarkV", "String"]
+- ["9Landmarks8LandmarkV", "_Default_ID"]
 - ["9Landmarks8LandmarkV", "__derived_struct_equals"]
 - !private ["9Landmarks8LandmarkV", "_findStringSwitchCase"]
 - ["9Landmarks8LandmarkV", "_rawHashValue"]
@@ -280,6 +310,7 @@ depends-nominal:
 - "SQ"
 - "SH"
 - !private "s6HasherV"
+- "s12IdentifiableP"
 - !private "9Landmarks10ImageStoreC"
 - !private "s22KeyedDecodingContainerV"
 - !private "s30KeyedDecodingContainerProtocolP"
@@ -325,4 +356,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e0a7747dc8280892504ac938589a1f1d"
+interface-hash: "5b5d04d0e722e845b15f294752274939"

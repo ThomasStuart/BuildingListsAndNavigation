@@ -12,14 +12,16 @@ provides-dynamic-lookup:
 depends-top-level:
 - "LandmarkList"
 - "LandmarkList_Previews"
+- !private "LandmarkRow"
+- !private "List"
 - "PreviewProvider"
-- !private "StringLiteralType"
-- !private "Text"
 - "View"
+- !private "landmarkData"
 depends-member:
-- !private ["SQ", "init"]
+- !private ["9Landmarks8LandmarkV", "deinit"]
 - ["9Landmarks12LandmarkListV", "Body"]
-- !private ["9Landmarks12LandmarkListV", "Text"]
+- !private ["9Landmarks12LandmarkListV", "LandmarkRow"]
+- !private ["9Landmarks12LandmarkListV", "List"]
 - ["9Landmarks12LandmarkListV", "View"]
 - ["9Landmarks12LandmarkListV", "_Default_Body"]
 - ["9Landmarks12LandmarkListV", "_makeView"]
@@ -27,6 +29,7 @@ depends-member:
 - ["9Landmarks12LandmarkListV", "body"]
 - ["9Landmarks12LandmarkListV", "deinit"]
 - ["9Landmarks12LandmarkListV", "init"]
+- !private ["9Landmarks12LandmarkListV", "landmarkData"]
 - !private ["9Landmarks21LandmarkList_PreviewsV", "LandmarkList"]
 - ["9Landmarks21LandmarkList_PreviewsV", "Previews"]
 - ["9Landmarks21LandmarkList_PreviewsV", "View"]
@@ -37,6 +40,9 @@ depends-member:
 - ["9Landmarks21LandmarkList_PreviewsV", "init"]
 - ["9Landmarks21LandmarkList_PreviewsV", "platform"]
 - ["9Landmarks21LandmarkList_PreviewsV", "previews"]
+- !private ["9Landmarks11LandmarkRowV", "deinit"]
+- !private ["9Landmarks11LandmarkRowV", "init"]
+- !private ["7SwiftUI4ListV", "init"]
 - !private ["7SwiftUI15PreviewProviderP", "LandmarkList"]
 - ["7SwiftUI15PreviewProviderP", "Previews"]
 - ["7SwiftUI15PreviewProviderP", ""]
@@ -45,15 +51,16 @@ depends-member:
 - ["7SwiftUI15PreviewProviderP", "_previews"]
 - ["7SwiftUI15PreviewProviderP", "platform"]
 - ["7SwiftUI15PreviewProviderP", "previews"]
-- !private ["7SwiftUI4TextV", "init"]
 - ["7SwiftUI4ViewP", "Body"]
-- !private ["7SwiftUI4ViewP", "Text"]
+- !private ["7SwiftUI4ViewP", "LandmarkRow"]
+- !private ["7SwiftUI4ViewP", "List"]
 - ["7SwiftUI4ViewP", ""]
 - ["7SwiftUI4ViewP", "_Default_Body"]
 - ["7SwiftUI4ViewP", "_makeView"]
 - ["7SwiftUI4ViewP", "_makeViewList"]
 - ["7SwiftUI4ViewP", "body"]
 - !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "landmarkData"]
 - !private ["7SwiftUI16_PreviewProviderP", "LandmarkList"]
 - ["7SwiftUI16_PreviewProviderP", "Previews"]
 - ["7SwiftUI16_PreviewProviderP", ""]
@@ -63,11 +70,12 @@ depends-member:
 - ["7SwiftUI16_PreviewProviderP", "platform"]
 - ["7SwiftUI16_PreviewProviderP", "previews"]
 depends-nominal:
-- !private "SQ"
+- !private "9Landmarks8LandmarkV"
 - "9Landmarks12LandmarkListV"
 - "9Landmarks21LandmarkList_PreviewsV"
+- !private "9Landmarks11LandmarkRowV"
+- !private "7SwiftUI4ListV"
 - "7SwiftUI15PreviewProviderP"
-- !private "7SwiftUI4TextV"
 - "7SwiftUI4ViewP"
 - "7SwiftUI16_PreviewProviderP"
 depends-dynamic-lookup:

@@ -1,13 +1,13 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "69c68874e41bed438135d240ddbf8d4c"
-build_time: [1595012557, 265699000]
+build_time: [1595013147, 18054000]
 inputs:
   "/Users/Thomas_Stuart/Desktop/XcodeProjects/BuildingListsAndNavigation/Landmarks/Landmarks/Models/Data.swift": [1591982176, 0]
   "/Users/Thomas_Stuart/Desktop/XcodeProjects/BuildingListsAndNavigation/Landmarks/Landmarks/AppDelegate.swift": [1591982176, 0]
   "/Users/Thomas_Stuart/Desktop/XcodeProjects/BuildingListsAndNavigation/Landmarks/Landmarks/Supporting Views/CircleImage.swift": [1591982176, 0]
   "/Users/Thomas_Stuart/Desktop/XcodeProjects/BuildingListsAndNavigation/Landmarks/Landmarks/Supporting Views/MapView.swift": [1591982176, 0]
-  "/Users/Thomas_Stuart/Desktop/XcodeProjects/BuildingListsAndNavigation/Landmarks/LandmarkList.swift": [1595012555, 859350524]
+  "/Users/Thomas_Stuart/Desktop/XcodeProjects/BuildingListsAndNavigation/Landmarks/Landmarks/LandmarkList.swift": [1595013075, 481014668]
   "/Users/Thomas_Stuart/Desktop/XcodeProjects/BuildingListsAndNavigation/Landmarks/Landmarks/SceneDelegate.swift": [1594943900, 737535153]
   "/Users/Thomas_Stuart/Desktop/XcodeProjects/BuildingListsAndNavigation/Landmarks/Landmarks/LandmarkDetail.swift": [1591982176, 0]
   "/Users/Thomas_Stuart/Desktop/XcodeProjects/BuildingListsAndNavigation/Landmarks/Landmarks/LandmarkRow.swift": [1595012557, 134454304]
-  "/Users/Thomas_Stuart/Desktop/XcodeProjects/BuildingListsAndNavigation/Landmarks/Landmarks/Models/Landmark.swift": [1591982176, 0]
+  "/Users/Thomas_Stuart/Desktop/XcodeProjects/BuildingListsAndNavigation/Landmarks/Landmarks/Models/Landmark.swift": [1595013075, 471723662]

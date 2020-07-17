@@ -51,6 +51,8 @@ depends-member:
 - !private ["SH", "image"]
 - !private ["SH", "name"]
 - !private ["SH", "subscript"]
+- !private ["s12IdentifiableP", "image"]
+- !private ["s12IdentifiableP", "name"]
 - !private ["7SwiftUI5ImageV", "frame"]
 - !private ["7SwiftUI5ImageV", "resizable"]
 - !private ["9Landmarks8LandmarkV", "image"]
@@ -145,6 +147,7 @@ depends-nominal:
 - !private "7SwiftUI5GroupV"
 - !private "7SwiftUI6HStackV"
 - !private "SH"
+- !private "s12IdentifiableP"
 - !private "7SwiftUI5ImageV"
 - !private "9Landmarks8LandmarkV"
 - "9Landmarks11LandmarkRowV"
